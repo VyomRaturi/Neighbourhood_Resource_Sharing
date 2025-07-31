@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration for production
 const corsOptions = {
-  origin: "https://neighbourhood-resource-sharing.vercel.app/",
+  origin: "https://neighbourhood-resource-sharing.vercel.app",
   credentials: true,
   optionsSuccessStatus: 200
 };
